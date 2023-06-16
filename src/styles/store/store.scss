@@ -1,23 +1,21 @@
 .store {
-  padding: 150px 0 130px;
-  &__title {
-    font-weight: 500;
-    font-size: 55px;
-    letter-spacing: 0.02em;
-    color: #000000;
-  }
+  padding: 30px 0 50px;
+
   &__list {
     margin: 30px 0;
     display: flex;
     gap: 10px;
   }
   &__item {
+    font-size: 24px;
     border: 1px solid #000000;
-    padding: 19px 65px;
+    border-radius: 5px;
+    padding: 15px 61px;
     cursor: pointer;
-    &:hover, &.active {
+    &:hover,
+    &.active {
       background: black;
-      color: #FFFFFF;
+      color: #ffffff;
     }
   }
   &__row {
@@ -34,7 +32,7 @@
 
       &:hover::before {
         z-index: 4;
-        content: '→';
+        content: "→";
         position: absolute;
         top: 0;
         left: 0;
@@ -46,7 +44,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
       }
     }
     &-img {
@@ -64,19 +61,21 @@
       font-weight: 500;
       font-size: 15px;
       letter-spacing: 0.02em;
-      color: #998E78;
+      color: #998e78;
     }
   }
   &__show {
-    margin: 30px 0;
+    margin: 15px 0;
   }
   &__pages {
     display: flex;
     justify-content: center;
   }
   &__select {
+    font-size: 20px;
     border: 1px solid #000000;
-    padding: 19px 5px;
+    border-radius: 5px;
+    padding: 10px 10px;
   }
   &__genders {
     display: flex;

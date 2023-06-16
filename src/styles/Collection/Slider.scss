@@ -1,23 +1,23 @@
-.collection{
-  padding: 130px 0;
-  &__btn{
+.collection {
+  padding: 60px 0;
+  &__btn {
     font-weight: 400;
     font-size: 17px;
     text-align: center;
     letter-spacing: 0.02em;
-    border: 1px solid #6E9C9F;
-    color: #6E9C9F;
+    border: 1px solid #6e9c9f;
+    color: #6e9c9f;
     padding: 15px 25px;
     background: transparent;
     display: block;
     margin: 30px auto 0;
   }
-  &__images{
+  &__images {
     width: 350px;
     height: 478px;
   }
 
-  &__title{
+  &__title {
     font-weight: 500;
     font-size: 40px;
     line-height: 110%;
@@ -26,11 +26,11 @@
     letter-spacing: 0.02em;
 
     color: #000000;
-    margin-bottom:92px ;
+    margin-bottom: 60px;
   }
-  &__card{
+  &__card {
     text-align: center;
-    &-title{
+    &-title {
       font-weight: 500;
       font-size: 20px;
       line-height: 140%;
@@ -40,7 +40,7 @@
 
       color: #000000;
     }
-    &-priec{
+    &-priec {
       font-style: normal;
       font-weight: 500;
       font-size: 15px;
@@ -51,8 +51,7 @@
 
       /* Дополнительный акцент */
 
-      color: #998E78;
-
+      color: #998e78;
     }
   }
 }

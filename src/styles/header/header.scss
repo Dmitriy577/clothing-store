@@ -1,5 +1,9 @@
-.header{
-  padding: 54px 0;
+.header {
+  padding: 20px 0;
+  background: #f1eadc;
+  &__title {
+    width: 200px;
+  }
   &__nav {
     display: flex;
     justify-content: space-between;
@@ -12,22 +16,23 @@
   }
   &__link {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 0.02em;
     color: #000000;
     &.active {
+      font-size: 22px;
       font-weight: 700;
-      color: #6E9C9F;
+      color: #6e9c9f;
     }
   }
-  &__right{
+  &__right {
     display: flex;
     column-gap: 20px;
     align-items: center;
   }
   &__phone {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 0.02em;
     color: #000000;
     display: flex;

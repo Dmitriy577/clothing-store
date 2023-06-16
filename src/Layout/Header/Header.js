@@ -16,8 +16,8 @@ const Header = () => {
       <div className="container">
         <nav className="header__nav">
           <Link to={"/"}>
-            <h1 className="header__title">
-              <img src={logo} alt="" />
+            <h1>
+              <img src={logo} alt="" className="header__title" />
             </h1>
           </Link>
           <div className="header__menu">
@@ -26,9 +26,6 @@ const Header = () => {
             </NavLink>
             <NavLink to={"/store"} className="header__link">
               Магазин
-            </NavLink>
-            <NavLink to={"/brand"} className="header__link">
-              О бренде
             </NavLink>
             <NavLink to={"/contacts"} className="header__link">
               Контакты

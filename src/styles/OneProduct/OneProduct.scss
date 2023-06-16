@@ -1,27 +1,27 @@
-.oneproduct{
-  &__row{
+.oneproduct {
+  &__row {
     display: flex;
     align-items: center;
     column-gap: 74px;
   }
-  &__left{
+  &__left {
     width: 536px;
     height: 729px;
   }
-  &__right{
+  &__right {
     display: flex;
     flex-direction: column;
     row-gap: 59px;
   }
-  &__desc{
+  &__desc {
     margin: 26px 0 100px;
   }
-  &__price{
+  &__price {
     font-weight: 500;
     font-size: 40px;
     letter-spacing: 0.02em;
-    color: #998E78;
-    span{
+    color: #998e78;
+    span {
       font-weight: 500;
       font-size: 30px;
       line-height: 110%;
@@ -29,14 +29,14 @@
       letter-spacing: 0.02em;
       text-decoration-line: line-through;
 
-      color: #9C9C9C;
+      color: #9c9c9c;
     }
   }
-  &__sizes{
+  &__sizes {
     display: flex;
     flex-direction: column;
     row-gap: 34px;
-    p{
+    p {
       font-weight: 500;
       font-size: 20px;
       line-height: 140%;
@@ -45,49 +45,48 @@
       letter-spacing: 0.02em;
 
       color: #000000;
-
     }
-    &-row{
+    &-row {
       display: flex;
       column-gap: 20px;
-      .active{
+      .active {
         background: black;
         color: white;
       }
-      .color-active{
+      .color-active {
         opacity: 1;
       }
     }
   }
-  &__size{
+  &__size {
     border: 1px solid black;
     padding: 5px 7px;
     cursor: pointer;
-    &:hover{
+    &:hover {
       background: black;
       color: white;
     }
   }
-  &__color{
+  &__color {
     width: 41px;
     height: 41px;
-    border-radius:50%;
+    border-radius: 50%;
     border: 2px solid black;
     cursor: pointer;
     opacity: 0.5;
   }
-  &__btn{
+  &__btn {
     padding: 22px 50px;
-    background: #6E9C9F;
+    background: #6e9c9f;
     font-weight: 400;
     font-size: 17px;
     line-height: 138.9%;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
     cursor: pointer;
-    &:disabled{
+    &:disabled {
       cursor: not-allowed;
       background: black;
       opacity: 0.5;
