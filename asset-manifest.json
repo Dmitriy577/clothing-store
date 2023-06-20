@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clothing-store/7/static/css/main.f6426597.css",
+    "main.js": "/clothing-store/7/static/js/main.08e4f32b.js",
+    "static/media/dmitriy-7DD6tfTKqS4-unsplash 1.png": "/clothing-store/7/static/media/dmitriy-7DD6tfTKqS4-unsplash 1.a5d1d825364cf254130e.png",
+    "static/media/Фото товара.png": "/clothing-store/7/static/media/Фото товара.d11f5aab78a2a7a35e39.png",
+    "static/media/logo.png": "/clothing-store/7/static/media/logo.a014f1e42dcbaf0fe662.png",
+    "index.html": "/clothing-store/7/index.html",
+    "main.f6426597.css.map": "/clothing-store/7/static/css/main.f6426597.css.map",
+    "main.08e4f32b.js.map": "/clothing-store/7/static/js/main.08e4f32b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6426597.css",
+    "static/js/main.08e4f32b.js"
+  ]
+}
